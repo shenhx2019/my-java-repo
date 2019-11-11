@@ -1,19 +1,17 @@
-package com.java8.lambdademo;
+package com.java8;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import java.util.function.Consumer;
 
 /**
  * @author shenhx
  */
 @SpringBootApplication
-public class LambdaDemoApplication {
+public class Java8DemoApplication {
 
     public static void main(String[] args) {
         System.out.println("hello,world");
-        SpringApplication.run(LambdaDemoApplication.class, args);
+        SpringApplication.run(Java8DemoApplication.class, args);
     }
 
 }
