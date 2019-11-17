@@ -2,8 +2,6 @@ package com.java8.parallel.logic;
 
 import com.java8.utils.SimpleConsoleLog;
 
-import java.sql.Statement;
-import java.util.Comparator;
 import java.util.Objects;
 import java.util.Spliterator;
 import java.util.function.Consumer;
