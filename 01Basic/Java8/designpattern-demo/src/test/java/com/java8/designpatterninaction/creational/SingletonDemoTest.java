@@ -1,5 +1,6 @@
 package com.java8.designpatterninaction.creational;
 
+import com.java8.designpatterninaction.creational.singleton.ReentrantLockSingleton;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -37,6 +38,17 @@ public class SingletonDemoTest {
         for (int i =0;i < 10;i++){
             Thread t = new Thread(() -> {
                 System.out.println(d++);
+            });
+            t.start();
+        }
+    }
+
+    @Test
+    void testReentrantLockSingleton(){
+        for (int i =0;i < 10;i++){
+            Thread t = new Thread(() -> {
+                // System.out.println(d++);
+                ReentrantLockSingleton.getInstance().test();
             });
             t.start();
         }
