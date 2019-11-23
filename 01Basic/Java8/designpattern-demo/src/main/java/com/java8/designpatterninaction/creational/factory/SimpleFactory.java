@@ -1,8 +1,8 @@
 package com.java8.designpatterninaction.creational.factory;
 
+import com.java8.designpatterninaction.creational.factory.entity.Dog;
 import com.java8.designpatterninaction.creational.factory.entity.IAnimal;
 import com.java8.designpatterninaction.creational.factory.entity.Chicken;
-import com.java8.designpatterninaction.creational.factory.entity.Dog;
 
 /**
  * SimpleFactory
