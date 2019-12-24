@@ -9,15 +9,13 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.java8</groupId>
-    <artifactId>designpatterninaction</artifactId>
+    <artifactId>concurrent-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>designpatterninaction</name>
-    <description>java8,design pattern in action</description>
+    <name>concurrent-demo</name>
+    <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
-        <asm.version>7.1</asm.version>
-        <cglib.version>3.3.0</cglib.version>
     </properties>
 
     <dependencies>
@@ -37,24 +35,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
-        <!--cglib-->
-        <dependency>
-            <groupId>cglib</groupId>
-            <artifactId>cglib</artifactId>
-            <version>${cglib.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>cglib</groupId>
-            <artifactId>cglib-nodep</artifactId>
-            <version>${cglib.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.ow2.asm</groupId>
-            <artifactId>asm</artifactId>
-            <version>${asm.version}</version>
-        </dependency>
-
     </dependencies>
 
     <build>
